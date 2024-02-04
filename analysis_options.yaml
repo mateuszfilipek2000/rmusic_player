@@ -1,0 +1,23 @@
+include: package:linteo/analysis_options.yaml
+
+analyzer:
+  plugins:
+    - custom_lint
+  exclude:
+    - "build/**"
+    - "bin/cache/**"
+    - "assets/**"
+    - "**.gr.dart"
+    - "**.freezed.dart"
+    - "ios/**"
+    - "android/**"
+    - "lib/generated/**"
+    - "**.g.dart"
+    - "**.config.dart"
+    - "**.mocks.dart"
+    - "**.tailor.dart"
+    - "**.chopper.dart"
+    - "lib/firebase_options.dart"
+    - rust/**
+    - rust_builder/**
+    - lib/src/rust/**
